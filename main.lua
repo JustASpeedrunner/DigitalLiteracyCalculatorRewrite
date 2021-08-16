@@ -13,3 +13,10 @@ end
 
 io.write("Choose your operation. 1) Addition, 2) Subtraction, 3) Multiplication, 4) Division")  
 local op = io.read()
+io.write("Please enter your first number ")
+local x = io.read()
+io.write("Enter your second number ")
+local y = io.read()
+
+if op == "1" then
+    print(x "+" y "=" add(x,y)
